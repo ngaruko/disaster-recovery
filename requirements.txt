@@ -5,7 +5,7 @@ Flask==1.1.2
 gunicorn==20.0.4
 itsdangerous==1.1.0
 Jinja2==2.11.2
-joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
+joblib 
 kiwisolver==1.2.0
 MarkupSafe @ file:///opt/concourse/worker/volumes/live/cb778296-98db-45ad-411e-6f726e102dc3/volume/markupsafe_1594371638608/work
 matplotlib @ file:///opt/concourse/worker/volumes/live/24f995ab-f0a7-4bf7-4b0e-ea68b1f7e8f7/volume/matplotlib-base_1597876350104/work
