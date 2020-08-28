@@ -1,51 +1,27 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: osx-64
-blas=1.0=mkl
-ca-certificates=2020.7.22=0
-certifi=2020.6.20=py38_0
-click=7.1.2=py_0
-flask=1.1.2=py_0
-gunicorn=20.0.4=py38_0
-intel-openmp=2020.2=258
-itsdangerous=1.1.0=py_0
-jinja2=2.11.2=py_0
-joblib=0.16.0=py_0
-libcxx=10.0.0=1
-libedit=3.1.20191231=h1de35cc_1
-libffi=3.3=hb1e8313_2
-libgfortran=3.0.1=h93005f0_2
-llvm-openmp=10.0.0=h28b9765_0
-markupsafe=1.1.1=py38h1de35cc_1
-mkl=2019.4=233
-mkl-service=2.3.0=py38hfbe908c_0
-mkl_fft=1.1.0=py38hc64f4ea_0
-mkl_random=1.1.1=py38h959d312_0
-ncurses=6.2=h0a44026_1
-nltk=3.5=py_0
-numpy=1.19.1=py38h3b9f5b6_0
-numpy-base=1.19.1=py38hcfb5961_0
-openssl=1.1.1g=h1de35cc_0
-pandas=1.1.1=py38hb1e8313_0
-pickleshare=0.7.5=py38_1001
-pip=20.2.2=py38_0
-plotly=4.9.0=py_0
-python=3.8.5=h26836e1_0
-python-dateutil=2.8.1=py_0
-pytz=2020.1=py_0
-readline=8.0=h1de35cc_0
-regex=2020.7.14=py38haf1e3a3_0
-retrying=1.3.3=py_2
-scikit-learn=0.23.2=py38h959d312_0
-scipy=1.5.0=py38hbab996c_0
-setuptools=49.6.0=py38_0
-six=1.15.0=py_0
-sqlalchemy=1.3.19=py38haf1e3a3_0
-sqlite=3.33.0=hffcf06c_0
-threadpoolctl=2.1.0=pyh5ca1d4c_0
-tk=8.6.10=hb0a8c7a_0
-tqdm=4.48.2=py_0
-werkzeug=1.0.1=py_0
-wheel=0.35.1=py_0
-xz=5.2.5=h1de35cc_0
-zlib=1.2.11=h1de35cc_3
+certifi==2020.6.20
+click==7.1.2
+Flask==1.1.2
+gunicorn==20.0.4
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib @ file:///tmp/build/80754af9/joblib_1594236160679/work
+MarkupSafe @ file:///opt/concourse/worker/volumes/live/cb778296-98db-45ad-411e-6f726e102dc3/volume/markupsafe_1594371638608/work
+mkl-fft==1.1.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
+numpy @ file:///opt/concourse/worker/volumes/live/c646f6b9-b398-438d-7dc7-c7142e0ba44b/volume/numpy_and_numpy_base_1596235504536/work
+pandas @ file:///opt/concourse/worker/volumes/live/905bc214-99a7-4c47-6cae-d63a445c9258/volume/pandas_1598371465625/work
+pickleshare @ file:///opt/concourse/worker/volumes/live/93ec39d8-05bb-4f84-7efc-98735bc39b70/volume/pickleshare_1594384101884/work
+plotly @ file:///tmp/build/80754af9/plotly_1597716491413/work
+python-dateutil==2.8.1
+pytz==2020.1
+regex @ file:///opt/concourse/worker/volumes/live/cba3b336-098a-44e5-4877-7dbac801480f/volume/regex_1596829719230/work
+retrying==1.3.3
+scikit-learn @ file:///opt/concourse/worker/volumes/live/111833a2-339b-4578-413b-7337bb8fe64a/volume/scikit-learn_1598376920601/work
+scipy @ file:///opt/concourse/worker/volumes/live/7f5e51f8-abf3-4409-4c56-a4fb14cc9869/volume/scipy_1593104185999/work
+six==1.15.0
+SQLAlchemy @ file:///opt/concourse/worker/volumes/live/c2aa03b1-c9ad-45a3-441a-2a13161a65a4/volume/sqlalchemy_1598374744424/work
+threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
+tqdm @ file:///tmp/build/80754af9/tqdm_1596810128862/work
+Werkzeug==1.0.1
